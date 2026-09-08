@@ -1,0 +1,10 @@
+{
+  "name": "D&D 2024 — Character Manager",
+  "short_name": "D&D 2024 Manager",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#090b10",
+  "theme_color": "#c99a4a",
+  "description": "Gestor de personajes de D&D 2024 para la web y GitHub Pages",
+  "icons": []
+}

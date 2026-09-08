@@ -1,0 +1,6 @@
+{
+  "name": "Gestor de Personajes D&D 2024",
+  "description": "Gestor y creador completo de personajes para D&D 2024 compatible con GitHub Pages y modo offline PWA, con catálogo de clases, subclases, especies, trasfondos, dotes, conjuros y equipo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

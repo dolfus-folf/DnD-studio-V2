@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Gestor de Personajes D&D 2024</title>
+    <script>
+      // Single Page Apps for GitHub Pages
+      sessionStorage.redirect = location.href;
+      var path = location.pathname;
+      var repo = path.split('/')[1];
+      if (repo && !path.endsWith('.html') && !path.endsWith('/')) {
+        location.replace('/' + repo + '/');
+      } else {
+        location.replace('./');
+      }
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo a la aplicación...</p>
+  </body>
+</html>
