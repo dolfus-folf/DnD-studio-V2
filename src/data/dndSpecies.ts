@@ -35,24 +35,10 @@ export const DND_SPECIES: SpeciesDefinition[] = [
       },
       revelacion_celestial: {
         id: 'revelacion_celestial',
-        nombre: 'Revelación celestial',
+        nombre: 'Revelación celestial (Nivel 3+)',
         nivel: 3,
-        descripcion: 'A nivel 3, puedes transformarte como acción adicional durante 1 minuto. Puedes elegir Alas celestiales (vuelo), Fulgor interior (daño radiante a 3m) o Mortaja necrótica (asusta a enemigos).'
+        descripcion: 'A nivel 3, como acción adicional puedes transformarte durante 1 minuto (1 uso por descanso largo). Cada vez que la activas, eliges una manifestación: Alas celestiales (vuelo igual a tu velocidad), Fulgor interior (luz brillante y daño radiante extra igual a PB) o Mortaja necrótica (asusta a criaturas a 3 m y daño necrótico extra).'
       }
-    },
-    detalle: {
-      selecciones: [
-        {
-          id: 'revelacion_celestial',
-          nombre: 'Revelación celestial (Nivel 3+)',
-          tipo: 'opcion_rasgo',
-          opciones: [
-            { id: 'alas_celestiales', nombre: 'Alas celestiales (Vuelo igual a tu velocidad)' },
-            { id: 'fulgor_interior', nombre: 'Fulgor interior (Luz brillante + daño radiante igual a PB)' },
-            { id: 'mortaja_necrotica', nombre: 'Mortaja necrótica (Asusta criaturas a 3 m, salvación CAR)' }
-          ]
-        }
-      ]
     }
   },
   {

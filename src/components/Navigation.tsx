@@ -126,7 +126,7 @@ export const Navigation: React.FC<NavigationProps> = ({
           }`}
         >
           <Sparkles className="w-4 h-4" />
-          <span>Creador & Nivel</span>
+          <span>Creador de Personaje</span>
         </button>
 
         <button
